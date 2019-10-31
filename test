@@ -1,0 +1,34 @@
+
+    <script id="template" type="x-tmpl-mustache">
+        {{#canadidateArray}}
+            <div class="row">
+                <div class="col s12 m7">
+                    <div class="card" id="cards">
+                    <div class="card-image"id="imgx">
+                        <img class="responsive-img imgx" src="{{ candidateUrl }}">
+                    </div>
+                    <div class="card-title center"><span class="center blue-text text-darken-3">{{creatorName}}</span></div>
+                    <div class="container">
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix" style="color: #2196f3;">payment</i>
+                                    <input placeholder="Amount"  type="number" class="validate" id={{ index }}>
+                                </div>
+                                <div class="right">
+                                    <h6 class="yellow-text text-darken-3" style="font-size: 20px;">{{ votes }} aettos</h6>
+                                </div>
+                                </div>
+                                <div class="card-action" id="action">
+                                    <a href="#!" class="btn waves-effect waves-light blue darken-3 waves-yellow left vote-btn" id={{ index }}>vote<i class="material-icons right">add</i></a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        {{/candidateArray}}
+    </script>

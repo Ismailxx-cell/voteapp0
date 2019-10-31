@@ -1,0 +1,43 @@
+#card-h {
+    border-radius: 25%;
+}
+.tabs .indicator {
+    background-color: #aa00ff;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+}
+.nav-content {
+    background:#64b5f6;
+}
+.con {
+    margin-top: 40px;
+}
+.input-field label {
+color: #424242;
+}
+ /* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid blue;
+  box-shadow: 0 1px 0 0 blue;
+}
+       /* label focus color */
+.input-field input[type=text]:focus + label {
+color: blue;
+}
+#cards {
+    border-radius: 20px;
+}
+#action {
+    height: 70px;
+}
+#vote-btn {
+    border-radius: 10px;
+}
+#rge {
+    width: 180px;
+    border-radius: 10px; 
+}
+.container {
+    overflow-y: auto;
+}

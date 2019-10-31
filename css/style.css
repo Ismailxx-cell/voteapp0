@@ -1,0 +1,31 @@
+#iconx {
+    margin-top: 30px;
+}
+#input{
+    margin-top: 120;
+}
+.model {
+    border-radius: 25px 25px 0px 0px;
+}
+.link {
+    border-radius: 20px;
+}
+#content {
+    height: 40px;
+}
+.sect {
+    margin-top: 70px;
+}
+.cax {
+    border-radius: 20px;
+    height: 450px;
+}
+.img {
+    border-radius: 20px;
+}
+#sign {
+    border-radius: 15px;
+}
+.container {
+    overflow-y: auto;
+}
